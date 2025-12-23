@@ -1,4 +1,4 @@
-class Solution {
+class concatenationarray {
     public int[] getConcatenation(int[] nums) {
      int n = nums.length;
      int [] ans = new int[2* nums.length];
@@ -8,5 +8,16 @@ class Solution {
         ans[i+n] = nums[i];
      }   
      return ans;
+    }
+
+    public static void main(String[] args) {
+        concatenationarray sol = new concatenationarray();
+        int[] nums = {1, 2, 3};
+        int[] result = sol.getConcatenation(nums);
+        
+        // Print the result
+        for (int num : result) {
+            System.out.print(num + " ");
+        }
     }
 }
