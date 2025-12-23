@@ -2,7 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class duplicate {
-    public boolean hasDuplicate(int[] nums) {
+    public static boolean hasDuplicate(int[] nums) {
         Set<Integer> st = new HashSet<>();
 
         for(int num : nums){
@@ -15,8 +15,8 @@ public class duplicate {
     }
 
     public static void main(String[] args) {
-        duplicate obj = new duplicate();
+        
         int[] nums = {1, 2, 3, 4, 5, 1};
-        System.out.println("Contains duplicates: " + obj.hasDuplicate(nums));
+        System.out.println("Contains duplicates: " +duplicate.hasDuplicate(nums));
     }
 }
