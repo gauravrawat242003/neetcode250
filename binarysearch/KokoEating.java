@@ -1,5 +1,7 @@
+package binarysearch;
+
 class KokoEating {
-    public int maxEl(int []piles){
+     int maxEl(int []piles){
         int n = piles.length;
         int maxi = Integer.MIN_VALUE;
 
@@ -10,7 +12,7 @@ class KokoEating {
         }
         return maxi;
     }
-    public int minEatingSpeed(int[] piles, int h) {
+     int minEatingSpeed(int[] piles, int h) {
         int l = 1 ;
         int r = maxEl(piles);
         int ans = r;
@@ -32,5 +34,15 @@ class KokoEating {
             }
         }
         return ans;
+    }
+    public static void main(String[] args) {
+        KokoEating sol = new KokoEating();
+
+        int[] piles = {3,6,7,11};
+        int h = 8;
+
+        int ans = sol.minEatingSpeed(piles, h);
+
+        System.out.println(ans);
     }
 }
