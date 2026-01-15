@@ -52,7 +52,7 @@ by not using extra arrays for prefix and postfix
          1 ,2 , 3, 4
 */
 
-public class productArrayExceptSelfOptimized {
+class productArrayExceptSelfOptimized {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
         int[] result = new int[n];

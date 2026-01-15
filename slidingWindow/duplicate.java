@@ -22,7 +22,7 @@ public class duplicate {
 
 
 //using hashset
-public class dulicateII{
+ class dulicateII{
       public boolean containsNearbyDuplicate(int[] nums, int k) {
         int n = nums.length;
         HashSet<Integer>st = new HashSet<>();
