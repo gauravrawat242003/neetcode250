@@ -1,0 +1,42 @@
+1️⃣ What is Stack in Java?
+
+Stack is a linear data structure that follows
+👉 LIFO (Last In First Out) principle.
+
+📌 In Java, stack can be implemented in 3 ways:
+
+Using Array
+
+Using Linked List
+
+Using Java Collection Framework (Stack / Deque)
+
+Operation	Meaning
+push()	   Insert element
+pop()	   Remove top element
+peek()	   View top element
+isEmpty()  Check empty
+isFull()	(array stack only)
+
+1️⃣ What is Queue?
+
+Queue is a linear data structure that follows
+👉 FIFO (First In, First Out) principle.
+
+📌 The element inserted first is removed first.
+
+Real-life example:
+
+Line at ticket counter
+
+Printer queue
+
+CPU scheduling
+
+2️⃣ Basic Queue Operations
+Operation	Description
+enqueue()	Insert element at rear
+dequeue()	Remove element from front
+peek() / front()	View front element
+isEmpty()	Check empty
+isFull()	Check full (array queue)
