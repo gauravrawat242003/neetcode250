@@ -8,12 +8,12 @@ public class Node{
     }
 }
 
-public class queueUsingLL{
+ class queueUsingLL{
     Node front;
     Node rear;
     int size;
 
-    public queueUsingLL{
+     queueUsingLL(){
         front = null;
         rear = null;
         size = 0;

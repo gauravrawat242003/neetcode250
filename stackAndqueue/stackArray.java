@@ -64,7 +64,7 @@ public class stackArray{
 
  class implementUsingArray {
     public static void main(String[] args) {
-        stackArray s = new stackArray(5);
+        stackArray s = new stackArray();
         s.push(1);
         s.push(2);
         s.push(3);

@@ -32,7 +32,7 @@ public class queueArray {
 
     public int pop(){
         if(front == -1){
-            System.out.println("empty");
+            System.out.println(" queue is empty");
             return -1;
         }
         int poped = queue[front];
@@ -67,6 +67,6 @@ public class queueArray {
         q.push(20);
         q.push(30);
         System.out.println(q.pop());
-        System.out.println(q.peek());
+        System.out.println(q.peek()); 
     }
  }
